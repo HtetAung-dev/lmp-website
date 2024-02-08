@@ -5,7 +5,7 @@ import securePrint from '../assets/securePrint.jpg';
 
 const Service = () => {
     return(
-        <div className="w-full bg-[#3de372] py-16 px-4 divide-y divide-dashed hover:divide-solid">
+        <div className="w-full bg-[#3de372] py-16 px-4 divide-y divide-dashed hover:divide-solid" id="services">
             <h1 className="md:text-4xl sm:text-3xl text-3xl font-bold text-[#656565] my-4 underline">Our Services</h1>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img src={Website} className="w-[350px] rounded-md drop-shadow-2xl mx-auto my-4" alt="/"/>

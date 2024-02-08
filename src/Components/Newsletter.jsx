@@ -5,7 +5,7 @@ import Social from './Social'
 const Newsletter = () => {
 
     return (
-        <div className='w-full py-16 text-white px-4 footerImg'>
+        <div className='w-full py-16 text-white px-4 footerImg' id='contact'>
             <div className='max-w-[850px] mx-auto grid lg:grid-cols-4'>
                 <div className='lg:col-span-2 px-4 py-4'>
                     <h1 className='md:text-2xl sm:text-xl text-xl font-bold py-2 text-justify'>Want tips & advices to upgrade  your work?</h1>

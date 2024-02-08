@@ -12,7 +12,6 @@ function App() {
         <Navbar />
         <Hero/>
       </div>
-      
       <Service />
       <Newsletter className="footerImg"/>
     </div>

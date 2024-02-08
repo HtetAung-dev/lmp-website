@@ -6,7 +6,6 @@ const Social = () => {
 
             {/* Social links */}
             <div className='mt-5'>
-
                 <h4 className='lg:text-start font-mono mb-5'>Follow Us</h4>
                 <ul className='flex justify-between lg:w-36'>
                     <li className="p-[5px] w-10 rounded-full bg-black hover:scale-105 duration-100">

@@ -13,8 +13,6 @@ const Hero = () => {
             showCursor : true,
             loop : true,
             cursorChar: '|',
-            
-
         });
 
         return () => {
@@ -22,11 +20,11 @@ const Hero = () => {
         };
     }, []);
   return (
-    <div className='text-dark'>
+    <div className='text-dark mt-11' id='home'>
         <div className='max-w-[800px] mt-[-46px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#3de372] font-bold p-2'>Transforming Ideas into Intelligent Solutions</p>
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-4'>Upgrade to Tommorow's Technology, Today.</h1>
-            <div className='flex justify-center items-center'>     
+            <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold text-[#3de372]' ref={el}></p>
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4'> your business with us.</p>
             </div>

@@ -13,19 +13,19 @@ body {
   background-color: #b0acaca3;
 }
 
-.navcontainer{
+.navcontainer {
   position: relative;
   z-index: 1;
 }
 
-.navcontainer .navbg{
+.navcontainer .navbg {
   position: absolute;
   z-index: -999;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(assets/ModernBanner.png);
+  background-image: url(./assets/ModernBaner.png);
   opacity: .7;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -33,7 +33,7 @@ body {
 }
 
 .footerImg {
-  background-image: url(assets/footer-bg.png);
+  background-image: url(./assets/footer-bg.png);
   opacity: .9;
   position: absolute;
   background-size: 100% 100%;
@@ -44,4 +44,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: hsl(0, 0%, 6%, .2);
+  backdrop-filter: blur(16px);
 }
