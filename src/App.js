@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Service from './Components/Service';
 import Newsletter from './Components/Newsletter';
+import About from './Components/About';
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
       <div className='w-100 navcontainer'>
         <div className='navbg'></div>
         <Navbar />
-        <Hero/>
+        <Hero />
       </div>
       <Service />
-      <Newsletter className="footerImg"/>
+      <About className="aboutImg" />
+      <Newsletter className="footerImg" />
     </div>
   );
 }

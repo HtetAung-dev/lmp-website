@@ -41,6 +41,14 @@ body {
   background-repeat: no-repeat;
 }
 
+/* .aboutImg {
+  background-image: url(./assets/aboutImg.jpg);
+  opacity: .9;
+  background-size: contain;
+  object-fit: cover;
+  background-repeat: no-repeat;
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
