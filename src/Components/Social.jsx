@@ -3,32 +3,28 @@ import React from "react";
 const Social = () => {
     return (
         <div>
-
             {/* Social links */}
-            <div className='mt-5'>
-                <h4 className='lg:text-start font-mono mb-5'>Follow Us</h4>
+            <div className='mt-5 flex items-center justify-around w-[70%] mx-auto'>
+                <p className='lg:text-start mb-2'>Get in touch</p>
                 <ul className='flex justify-between lg:w-36'>
-                    <li className="p-[5px] w-10 rounded-full bg-black hover:scale-105 duration-100">
-                        <a href="https://www.facebook.com">
-                            <i className="text-[20px] ri-facebook-circle-fill"></i>
+                    <li className="w-9 h-9 items-center flex justify-center rounded-full bg-black hover:scale-125 duration-150">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i className="text-2xl ri-facebook-circle-fill"></i>
                         </a>
                     </li>
-
-                    <li className="p-[5px] w-10 rounded-full bg-black hover:scale-105 duration-100">
-                        <a href="https://www.instagram.com">
-                            <i className="text-[20px] ri-instagram-fill"></i>
+                    <li className="w-9 h-9 items-center flex justify-center rounded-full bg-black hover:scale-125 duration-150">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i className="text-2xl ri-instagram-fill"></i>
                         </a>
                     </li>
-
-                    <li className="p-[5px] w-10 rounded-full bg-black hover:scale-105 duration-100">
-                        <a href="https://www.twitter.com">
-                            <i className="text-[20px] ri-twitter-fill"></i>
+                    <li className="w-9 h-9 items-center flex justify-center rounded-full bg-black hover:scale-125 duration-150">
+                        <a href="https://www.twitter.com" target="_blank">
+                            <i className="text-2xl ri-twitter-fill"></i>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-
     )
 }
 
