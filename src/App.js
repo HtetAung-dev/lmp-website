@@ -14,7 +14,7 @@ function App() {
         <Hero />
       </div>
       <Service />
-      <About className="aboutImg" />
+      <About className="" />
       <Newsletter className="footerImg" />
     </div>
   );

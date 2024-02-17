@@ -41,13 +41,13 @@ body {
   background-repeat: no-repeat;
 }
 
-/* .aboutImg {
+.aboutImg {
   background-image: url(./assets/aboutImg.jpg);
   opacity: .9;
-  background-size: contain;
-  object-fit: cover;
+  background-size: cover;
+  /* object-fit: cover; */
   background-repeat: no-repeat;
-} */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
