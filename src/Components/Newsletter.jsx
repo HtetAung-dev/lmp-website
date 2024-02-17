@@ -5,9 +5,9 @@ import Social from './Social'
 const Newsletter = () => {
 
     return (
-        <div className='w-full py-16 text-white px-4 footerImg border' id='contact'>
+        <div className='w-full py-16 text-white px-4 footerImg' id='contact'>
             {/* max-w-[850px]  */}
-            <div className='lg:w-[90%] mx-auto grid lg:grid-cols-4 gap-5 lg:px-5'> 
+            <div className='lg:w-[90%] mx-auto grid lg:grid-cols-4 gap-5 lg:px-5'>
                 <div className='lg:col-span-2 px-4 py-4'>
                     <h1 className='md:text-2xl sm:text-xl text-xl font-bold py-2 text-justify'>Want tips & advices to upgrade  your work?</h1>
                     <p className='text-justify'>Leave your mail address here to get the conversation with our business development team.</p>
@@ -24,11 +24,10 @@ const Newsletter = () => {
                     <div>
                         <Social />
                     </div>
-
                 </div>
-
-
-
+            </div>
+            <div className="text-sm text-center text-green-400 my-2 font-semibold">
+                &copy; {new Date().getFullYear()} LMP Corporation. All rights reserved.
             </div>
         </div>
     )
