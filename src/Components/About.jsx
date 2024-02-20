@@ -5,9 +5,9 @@ import Bendy from "../assets/Bendy.jpg";
 const About = () => {
 
     return (
-        <div className="w-full p-10 aboutImg" id="about">
+        <div className="w-full py-28 aboutImg" id="about">
             <div className="absolute inset-0 bg-no-repeat bg-cover" style={{ backgroundImage: "./assets/aboutImg.jpg" }}></div>
-            <div className="m-5 grid grid-cols-2 items-center">
+            <div className="m-5 lg:grid lg:grid-cols-2 items-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     <div className="flex flex-col items-center ">
                         <img
