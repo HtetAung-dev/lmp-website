@@ -51,22 +51,24 @@ const Newsletter = () => {
                     <div className="text-left">
                         <h3 className="text-2xl mb-3 border-b-4 pb-2 w-[70%]">Contact Form</h3>
                         <div className="lg:grid lg:grid-cols-2">
-                        <div className="my-2">
-                            <input type="text" className='rounded-md p-1 bg-gray-200 outline-none text-black' placeholder='Name' />
-                        </div>
-                        <div className="my-2">
-                            <input type="number" className='rounded-md p-1 bg-gray-200 outline-none text-black' placeholder='Phone' />
-                        </div>
-                        <div className="my-2">
-                            <input type="text" className='rounded-md p-1 bg-gray-200 outline-none text-black' placeholder='Message' />
-                        </div>
-                        <button className='bg-[#3de372] text-black rounded-md w-32'>Notify Me!</button>
+                            <div className="my-2">
+                                <input type="text" className='rounded-md p-1 bg-gray-200 outline-none text-black' placeholder='Name' />
+                            </div>
+                            <div className="my-2">
+                                <input type="number" className='rounded-md p-1 bg-gray-200 outline-none text-black' placeholder='Phone' />
+                            </div>
+                            <div className="my-2">
+                                <input type="text" className='rounded-md p-1 bg-gray-200 outline-none text-black' placeholder='Message' />
+                            </div>
+                            <div className="my-2 flex items-center justify-center w-24 text-center rounded-md bg-green-400 text-black font-semibold hover:scale-110 duration-200">
+                                <button className=''>Notify Me!</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             {/* Office Address and Location Map */}
-            <div className="map-responsive">
+            <div className="map-responsive border-3 border-red-600 py-10 w-[97%] mx-auto rounded-sm">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14799.394382709184!2d96.0995296!3d21.9787732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d7dc9b78491%3A0xba3a17da5fea8bf6!2sLuu%20Min%20Phyo%20Company%20Limited!5e0!3m2!1sen!2smm!4v1708446582004!5m2!1sen!2smm" width="600" height="450" allowFullScreen referrerPolicy='no-referrer-when-downgrade' loading="lazy" title='responsive google map'></iframe>
             </div>
             <div className="text-sm text-center text-green-400 my-2 font-semibold">
