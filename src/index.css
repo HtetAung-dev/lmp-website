@@ -25,26 +25,28 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(./assets/ModernBaner.png);
-  opacity: .7;
+  background-image: url(./assets/carousel.png);
+  opacity: .3;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   backdrop-filter: blur(8px);
 }
 
 .footerImg {
   background-image: url(./assets/footer-bg.png);
   opacity: .9;
-  position: absolute;
-  background-size: 100% 100%;
+  background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
+  min-height: 300px;
+  max-height: 400px;
 }
 
 .aboutImg {
-  background-image: url(./assets/aboutImg.jpg);
-  opacity: .9;
+  background-image: url(./assets/about_bg.svg);
   background-size: cover;
+  min-height: 500px;
+  max-height: 1500px;
   /* object-fit: cover; */
   background-repeat: no-repeat;
 }
@@ -57,22 +59,23 @@ code {
 .nav-bar {
   position: fixed;
   top: 0;
-  background-color: hsl(0, 0%, 6%, .2);
+  background-color: hsl(0, 0%, 100%);
   backdrop-filter: blur(16px);
 }
 
-.map-responsive{
-  overflow: hidden;
-  padding-bottom: 30%;
-  position: relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  border: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+@media  screen and (max-width: 400px) {
+  .navcontainer .navbg {
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(./assets/carousel.png);
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    backdrop-filter: blur(8px);
+  }
 }

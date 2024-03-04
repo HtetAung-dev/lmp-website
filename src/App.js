@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Service from './Components/Service';
 import Newsletter from './Components/Newsletter';
 import About from './Components/About';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,9 +14,11 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <Service />
       <About className="" />
-      <Newsletter className="footerImg" />
+      <Service />
+      
+      <Newsletter/>
+      <Footer />
     </div>
   );
 }

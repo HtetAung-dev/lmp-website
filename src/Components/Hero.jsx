@@ -22,11 +22,11 @@ const Hero = () => {
   return (
     <div className='text-dark mt-11' id='home'>
         <div className='max-w-[800px] mt-[-46px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-            <p className='text-[#3de372] font-bold p-2'>Transforming Ideas into Intelligent Solutions</p>
-            <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-4'>Upgrade to Tommorow's Technology, Today.</h1>
+            <p className='text-[#52ff49] font-bold p-2'>Transforming Ideas into Intelligent Solutions</p>
+            <h1 className='md:text-7xl sm:text-6xl text-4xl text-[#303030] font-bold md:py-4'>You Dream It. We Make It Happen.</h1>
             <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold text-[#3de372]' ref={el}></p>
-                <p className='md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4'> your business with us.</p>
+                <p className='md:text-5xl sm:text-4xl text-xl text-[#303030] font-bold pl-2 md:pl-4'> your business with us.</p>
             </div>
             
             <p className='md:text-xl sm:text-sm text-sm font-bold text-gray-200 my-3'>From Smart Software Solutions to Advanced Low Voltage Systems, We Strive to Connect Beyond Limits and Secure Beyond Expectations, Shaping a Sustainable Path to Success!</p>

@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='text-[#3de372] flex justify-between bg-slate-500 font-bold items-center w-full h-24 mx-auto px-4 nav bg-white/100 opacity-80 nav-bar'>
+        <div className='text-[#2f2f2f] flex justify-between bg-slate-500 font-bold items-center w-full h-24 mx-auto px-4 nav bg-white/100 opacity-80 nav-bar'>
             <img src={LmpLogo} alt="lmp" className='w-[100px]' />
             <ul className='hidden md:flex'>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <div className={!nav ? 'fixed left-0 top-0 w-[55%] h-full border-r border-r-gray-900 bg-[#1a1919] z-30 ease-in-out duration-500' : 'fixed left-[-100%]'}>
                 <img src={LmpLogo} alt="lmp" className='w-[70px] mx-auto' />
-                <ul className='uppercase p-4'>
+                <ul className='uppercase p-4 bg-[#1a1919] text-slate-100'>
                     <li className='p-4 border-b border-gray-600'><a href="#home" className="">Home</a></li>
                     <li className='p-4 border-b border-gray-600'><a href="#about" className="">About</a></li>
                     <li className='p-4 border-b border-gray-600'><a href="#services" className="">Services</a></li>
